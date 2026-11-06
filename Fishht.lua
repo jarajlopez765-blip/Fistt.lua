@@ -1,18 +1,15 @@
-script_mode = "visual"
+-- BLOCKSPIN HUB
+-- Proyecto Lua para Roblox Studio
 
-print("🐟 FISH MENU LOADED")
+local BlockspinHub = {}
 
---[[ PVP ]]
-if script_mode == "pvp" then
-    print("PVP MODE")
+BlockspinHub.Name = "BLOCKSPIN HUB"
+BlockspinHub.Version = "1.0"
+
+function BlockspinHub.Start()
+    print("BLOCKSPIN HUB iniciado")
 end
 
---[[ FARM ]]
-if script_mode == "farm" then
-    print("FARM MODE")
-end
+BlockspinHub.Start()
 
---[[ VISUAL ]]
-if script_mode == "visual" then
-    print("VISUAL MODE")
-end
+return BlockspinHub
